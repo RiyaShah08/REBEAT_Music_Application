@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".rename">
+
+    <ImageView
+        android:id="@+id/back_log"
+        android:layout_width="20dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/undo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="51dp"
+            android:layout_height="53dp"
+            android:src="@drawable/main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lbrite"
+            android:text="REBEAT"
+            android:textColor="@color/green"
+            android:textSize="28dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_login1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/amaranth_regular"
+        android:text="Password Reset"
+        android:textColor="@color/loginpage"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginRight="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/textbox"
+        android:fontFamily="@font/amaranth_regular"
+        android:hint="New Password"
+        android:inputType="textPassword"
+        android:paddingLeft="35sp"
+        android:textColor="@color/tgrey"
+        android:textColorHint="@color/tgrey"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_login1">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/con_password"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginRight="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="25sp"
+        android:background="@drawable/textbox"
+        android:fontFamily="@font/amaranth_regular"
+        android:hint="Confirm Password"
+        android:paddingLeft="35sp"
+        android:textColor="@color/tgrey"
+        android:textColorHint="@color/tgrey"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/login_reset"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginRight="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/amaranth_regular"
+        android:text="Reset password"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

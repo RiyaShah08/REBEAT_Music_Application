@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Signin">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="20dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/undo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="Welcome"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:textSize="42dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amaranth_regular"
+            android:text="Ready for million songs $ entertainment. sign up to get started."
+            android:textColor="@color/gtext"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30sp"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_marginRight="30sp"
+            android:layout_marginLeft="30sp"
+            android:layout_height="56dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/textbox"
+            android:fontFamily="@font/amaranth_regular"
+            android:hint="Email id"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="35sp"
+            android:textColor="@color/tgrey"
+            android:textColorHint="@color/tgrey"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_marginRight="30sp"
+            android:layout_marginLeft="30sp"
+            android:layout_height="56dp"
+            android:layout_marginTop="25sp"
+            android:background="@drawable/textbox"
+            android:fontFamily="@font/amaranth_regular"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="35sp"
+            android:textColor="@color/tgrey"
+            android:textColorHint="@color/tgrey"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Email">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_marginRight="30sp"
+            android:layout_marginLeft="30sp"
+            android:layout_height="56dp"
+            android:layout_marginTop="25sp"
+            android:background="@drawable/textbox"
+            android:fontFamily="@font/amaranth_regular"
+            android:hint="What should we call you?"
+            android:inputType="text"
+            android:paddingLeft="35sp"
+            android:textColor="@color/tgrey"
+            android:textColorHint="@color/tgrey"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/password">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amaranth_regular"
+            android:text="already have an account? LOG IN"
+            android:textColor="@color/gtext"
+            android:textSize="15dp"
+            android:onClick="loginn"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/button_signup"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/button_signup"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/button"
+            android:text="SIGN UP"
+            android:fontFamily="@font/amaranth_regular"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

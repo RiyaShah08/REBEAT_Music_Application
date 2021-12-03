@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "314838006001",
+    "project_id": "musical-app-5d933",
+    "storage_bucket": "musical-app-5d933.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314838006001:android:b80302e96634db04321150",
+        "android_client_info": {
+          "package_name": "com.example.musical_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314838006001-jqp6jrond1j2oih62qm80ab3pg2nujts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX3x2vlPa2wXrbId0oaYygDrWrwmCh_n4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314838006001-jqp6jrond1j2oih62qm80ab3pg2nujts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

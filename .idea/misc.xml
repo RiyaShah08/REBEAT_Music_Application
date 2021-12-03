@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/button.xml" value="0.2703125" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/custom_seek.xml" value="0.2546875" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/demo.xml" value="0.2703125" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/me_shape.xml" value="0.25625" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/pause.xml" value="0.2703125" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/playlist.xml" value="0.14635416666666667" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/search.xml" value="0.2703125" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/shape.xml" value="0.2703125" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/shape1.xml" value="0.2703125" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/shape2.xml" value="0.2703125" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/shape3.xml" value="0.2703125" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/shape4.xml" value="0.2703125" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/shape5.xml" value="0.2703125" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/shape6.xml" value="0.2703125" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/shape7.xml" value="0.2703125" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/shape_home.xml" value="0.2703125" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/shape_home1.xml" value="0.2703125" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/shape_last.xml" value="0.2703125" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/shape_me.xml" value="0.2703125" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/drawable/state_button.xml" value="0.2703125" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/layout/activity_demo.xml" value="0.264" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/layout/activity_language.xml" value="0.15625" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/layout/activity_library.xml" value="0.2259963768115942" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/layout/activity_login.xml" value="0.15625" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/layout/activity_main.xml" value="0.15625" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/layout/activity_playlists.xml" value="0.176" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/layout/activity_rename.xml" value="0.15625" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/layout/activity_savedframe.xml" value="0.152" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/layout/activity_signin.xml" value="0.12" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/layout/activity_song_main.xml" value="0.152" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/layout/activity_song_main2.xml" value="0.152" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/layout/activity_song_main3.xml" value="0.176" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/layout/activity_song_playlist.xml" value="0.176" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/layout/activity_song_playlist1.xml" value="0.24592391304347827" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/menu/nav_bar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Basicandroid/musical_app/app/src/main/res/menu/navigationber.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
