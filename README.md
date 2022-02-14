@@ -4,4 +4,10 @@
  
   ## List of method used while creating this, 
     It contains at least listview, animation, service, broadcastreceiver, intent, database, etc. 
-
+  
+  ### Output
+  
+  <img src="https://github.com/RiyaShah08/REBEAT_Music_Application/blob/master/output/home4.jpeg" >
+  <img src="https://github.com/RiyaShah08/REBEAT_Music_Application/blob/master/output/playlist1.jpeg" >
+ 
+  
