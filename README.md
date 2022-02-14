@@ -9,5 +9,7 @@
   
   <p float="left">
     <img src="https://github.com/RiyaShah08/REBEAT_Music_Application/blob/master/output/home4.jpeg" width="300dp" >
+    
+    
     <img src="https://github.com/RiyaShah08/REBEAT_Music_Application/blob/master/output/playlist1.jpeg" width="300dp">
   </p>
