@@ -8,7 +8,7 @@
   ### Output
   
   <p float="left">
-    <img src="https://github.com/RiyaShah08/REBEAT_Music_Application/blob/master/output/home.jpeg" width="300dp" height="1500dp"> 
-    <img src="https://github.com/RiyaShah08/REBEAT_Music_Application/blob/master/output/home4.jpeg" width="300dp" height="1500dp"> 
-    <img src="https://github.com/RiyaShah08/REBEAT_Music_Application/blob/master/output/playlist1.jpeg" width="300dp" height="1500dp">
+    <img src="https://github.com/RiyaShah08/REBEAT_Music_Application/blob/master/output/home.jpeg" width="300dp" height="800dp"> 
+    <img src="https://github.com/RiyaShah08/REBEAT_Music_Application/blob/master/output/home4.jpeg" width="300dp" height="800dp"> 
+    <img src="https://github.com/RiyaShah08/REBEAT_Music_Application/blob/master/output/playlist1.jpeg" width="300dp" height="800dp">
   </p>
