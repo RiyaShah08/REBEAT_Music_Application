@@ -42,7 +42,6 @@ class Signin : AppCompatActivity() {
             val intent = Intent(this, Language::class.java)
             startActivity(intent)
         }
-
     }
 
     fun IsLogin(): Boolean {
@@ -55,7 +54,6 @@ class Signin : AppCompatActivity() {
                     statusBarColor = Color.TRANSPARENT
                 }
             }
-
             button_signup.setOnClickListener {
                 signup()
             }
