@@ -39,7 +39,20 @@ class home : AppCompatActivity() {
 
         val OnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
             when (item.itemId) {
+                R.id.home -> {
+                    val intent = Intent(this, home::class.java)
+                    startActivity(intent)
+                }
+
                 R.id.playlist -> {
+                    val intent = Intent(this, savedframe::class.java)
+                    startActivity(intent)
+                }
+
+                R.id.share -> {
+                }
+
+                R.id.library -> {
                     val intent = Intent(this, savedframe::class.java)
                     startActivity(intent)
                 }

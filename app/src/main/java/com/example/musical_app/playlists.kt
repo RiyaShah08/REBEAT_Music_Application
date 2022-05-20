@@ -50,6 +50,12 @@ class playlists : AppCompatActivity() {
                     val intent = Intent(this, savedframe::class.java)
                     startActivity(intent)
                 }
+
+                R.id.home -> {
+                    val intent = Intent(this, home::class.java)
+                    startActivity(intent)
+                }
+
             }
             return@OnNavigationItemSelectedListener true
         }

@@ -977,14 +977,22 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:menu="@menu/nav_bar"
-        app:itemIconSize="@dimen/bottom_navigation_icon_size"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:itemIconSize="24dp"
+        app:labelVisibilityMode="labeled"
         android:background="@color/menucolor"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
